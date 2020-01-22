@@ -1,5 +1,5 @@
 # Trophy Manager
-A data pack for restoring item data on player heads
+A data pack for restoring item data on player heads. Requires Minecraft 1.15.
 
 ### Installation
 Trophy Manager is bundled with [Load](https://github.com/LanternMC/Load) for easy
