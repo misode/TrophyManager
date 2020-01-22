@@ -15,5 +15,5 @@ data modify storage trophy_manager:register trophies append value {value:'<TEXTU
 
 It is your responsibility that a trophy is only registered once. You can use additional checks to guarantee this:
 ```mcfunction
-execute unless data storage trophy_manager:register trophies[{value:'<TEXTURE VALUE'}] run ...
+execute unless data storage trophy_manager:register trophies[{id:"customid"}] run data modify storage trophy_manager:register trophies append value {id:"customid",value:'<TEXTURE VALUE>',item:{display:{Name:'<ITEM NAME JSON>',Lore:['<ITEM LORE>']}}}
 ```
